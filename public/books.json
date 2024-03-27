@@ -1,0 +1,80 @@
+[
+  {
+    "bookId": 1,
+    "bookName": "Harry Potter and the Philosopher's Stone",
+    "author": "J.K. Rowling",
+    "image": "https://i.ibb.co/n1zbPkP/Harry-Potter-and-the-Philosopher-s-Stone.jpg",
+    "review": "The beginning of an enchanting journey into the magical world of Hogwarts, captivating readers of all ages.",
+    "totalPages": 320,
+    "rating": 4.7,
+    "category": "Fantasy",
+    "tags": ["Magic", "Adventure"],
+    "publisher": "Bloomsbury Publishing",
+    "yearOfPublishing": 1997
+  },
+  {
+    "bookId": 2,
+    "bookName": "The Da Vinci Code",
+    "author": "Dan Brown",
+    "image": "https://i.ibb.co/gS6dSkj/The-Da-Vinci-Code.jpg",
+    "review": "A gripping thriller that weaves together art, history, and mystery, keeping readers on the edge of their seats.",
+    "totalPages": 592,
+    "rating": 4.3,
+    "category": "Mystery",
+    "tags": ["Conspiracy", "Thriller"],
+    "publisher": "Doubleday",
+    "yearOfPublishing": 2003
+  },
+  {
+    "bookId": 3,
+    "bookName": "The Alchemist",
+    "author": "Paulo Coelho",
+    "image": "https://i.ibb.co/TPZXRcX/The-Alchemist.jpg",
+    "review": "A timeless tale of self-discovery and following one's dreams, inspiring readers around the world.",
+    "totalPages": 208,
+    "rating": 4.2,
+    "category": "Fiction",
+    "tags": ["Philosophical", "Inspirational"],
+    "publisher": "HarperCollins",
+    "yearOfPublishing": 1988
+  },
+  {
+    "bookId": 4,
+    "bookName": "The Hunger Games",
+    "author": "Suzanne Collins",
+    "image": "https://i.ibb.co/VVzLpVL/The-Hunger-Games.png",
+    "review": "A thrilling dystopian adventure that explores themes of survival, sacrifice, and rebellion.",
+    "totalPages": 374,
+    "rating": 4.5,
+    "category": "Young Adult",
+    "tags": ["Dystopian", "Action"],
+    "publisher": "Scholastic Press",
+    "yearOfPublishing": 2008
+  },
+  {
+    "bookId": 5,
+    "bookName": "The Girl with the Dragon Tattoo",
+    "author": "Stieg Larsson",
+    "image": "https://i.ibb.co/XYzQLxh/The-Girl-with-the-Dragon-Tattoo.png",
+    "review": "A gripping mystery featuring complex characters and a riveting plot, leaving readers eager for more.",
+    "totalPages": 672,
+    "rating": 4.1,
+    "category": "Mystery",
+    "tags": ["Suspense", "Crime"],
+    "publisher": "Norstedts Förlag",
+    "yearOfPublishing": 2005
+  },
+  {
+    "bookId": 6,
+    "bookName": "The Fault in Our Stars",
+    "author": "John Green",
+    "image": "https://i.ibb.co/DGPt6vS/The-Fault-in-Our-Stars.jpg",
+    "review": "A poignant and heartfelt story of love and loss, touching the hearts of readers worldwide.",
+    "totalPages": 313,
+    "rating": 4.6,
+    "category": "Young Adult",
+    "tags": ["Romance", "Drama"],
+    "publisher": "Dutton Books",
+    "yearOfPublishing": 2012
+  }
+]
