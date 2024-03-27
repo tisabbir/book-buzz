@@ -3,8 +3,10 @@ import {
   MdOutlineEditLocation,
   MdOutlineInsertPageBreak,
 } from "react-icons/md";
+import { Link } from "react-router-dom";
 const ReadBook = ({ readBook }) => {
   const {
+    bookId,
     bookName,
     author,
     image,
@@ -57,9 +59,11 @@ const ReadBook = ({ readBook }) => {
               <button className="btn rounded-full bg-[#FFAC33] ">
                 Rating : {rating}
               </button>
-              <button className="btn bg-[#23BE0A] text-white rounded-full ">
-                View Details
-              </button>
+              <Link to={`/book/${bookId}`}>
+                <div className="btn bg-[#23BE0A] text-white rounded-full ">
+                  View Details
+                </div>
+              </Link>
             </div>
           </div>
         </div>

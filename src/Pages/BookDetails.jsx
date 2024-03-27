@@ -24,6 +24,7 @@ const BookDetails = () => {
 
   let readBtnCount = 0;
   let wishBtnCount = 0;
+
   return (
     <div className="mt-12 flex gap-24 flex-col lg:flex-row justify-center">
       <div className="flex-1 flex justify-end">
