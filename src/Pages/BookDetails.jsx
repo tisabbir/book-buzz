@@ -1,5 +1,6 @@
 import { useLoaderData, useParams } from "react-router-dom";
-
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 const BookDetails = () => {
   const books = useLoaderData();
   const { bookId } = useParams();
@@ -19,6 +20,10 @@ const BookDetails = () => {
   } = book;
 
   //   console.log(publisher);
+
+  let readBtnCount = 0;
+  let wishBtnCount = 0;
+
   return (
     <div className="mt-12 flex gap-24 flex-col lg:flex-row justify-center">
       <div className="flex-1 flex justify-end">
@@ -66,10 +71,79 @@ const BookDetails = () => {
           <span className="flex-1 font-bold text-lg">{rating}</span>
         </p>
 
-        <button className="btn btn-ghost border border-[#1313134d]">
+        <button
+          onClick={() => {
+            readBtnCount++;
+            if (readBtnCount > 1) {
+              toast.warn(`You have already Read this!!!`, {
+                position: "top-right",
+                autoClose: 3000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "light",
+              });
+            } else {
+              toast.success(`Successfully added to Read`, {
+                position: "top-right",
+                autoClose: 3000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "light",
+              });
+            }
+          }}
+          className="btn btn-ghost border border-[#1313134d]"
+        >
           Read
         </button>
-        <button className="btn ml-4 bg-[#50B1C9] text-white ">Wishlist</button>
+        <button
+          onClick={() => {
+            wishBtnCount++;
+            if (readBtnCount > 0) {
+              toast.warn(`You have already Read this!!!`, {
+                position: "top-right",
+                autoClose: 3000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "light",
+              });
+            } else if (wishBtnCount > 1) {
+              toast.warn(`You have already added this to Wishlist!!!`, {
+                position: "top-right",
+                autoClose: 3000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "light",
+              });
+            } else {
+              toast.success(`Successfully added to Wishlist`, {
+                position: "top-right",
+                autoClose: 3000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "light",
+              });
+            }
+          }}
+          className="btn ml-4 bg-[#50B1C9] text-white "
+        >
+          Wishlist
+        </button>
       </div>
     </div>
   );
