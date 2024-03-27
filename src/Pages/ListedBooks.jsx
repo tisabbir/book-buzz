@@ -1,7 +1,16 @@
+import { Outlet } from "react-router-dom";
+import Dropdown from "../Components/Dropdown";
+import Header from "../Components/Header";
+import Tab from "../Components/Tab";
+
 const ListedBooks = () => {
   return (
     <div>
-      <h1>This is Listed Books</h1>
+      <Header></Header>
+      <Dropdown></Dropdown>
+      <Tab></Tab>
+
+      <Outlet></Outlet>
     </div>
   );
 };

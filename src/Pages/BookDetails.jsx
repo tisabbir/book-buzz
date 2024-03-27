@@ -1,6 +1,7 @@
 import { useLoaderData, useParams } from "react-router-dom";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { saveReadBook } from "../Utility/localStorage";
 const BookDetails = () => {
   const books = useLoaderData();
   const { bookId } = useParams();
@@ -23,7 +24,6 @@ const BookDetails = () => {
 
   let readBtnCount = 0;
   let wishBtnCount = 0;
-
   return (
     <div className="mt-12 flex gap-24 flex-col lg:flex-row justify-center">
       <div className="flex-1 flex justify-end">
@@ -86,6 +86,7 @@ const BookDetails = () => {
                 theme: "light",
               });
             } else {
+              saveReadBook(book);
               toast.success(`Successfully added to Read`, {
                 position: "top-right",
                 autoClose: 3000,
