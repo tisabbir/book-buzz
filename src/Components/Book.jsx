@@ -1,33 +1,32 @@
 import { CiStar } from "react-icons/ci";
-const Book = () => {
+const Book = ({ book }) => {
+  const { bookId, bookName, author, image, rating, category, tags } = book;
   return (
     <div>
       <div className="card w-96 bg-base-100 p-4 border border-[#13131326]">
         <figure>
-          <img
-            className="rounded-xl"
-            src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-            alt="Shoes"
-          />
+          <img className="rounded-xl h-80" src={image} alt="Shoes" />
         </figure>
 
         <div className="card-body p-0 mt-6">
           <div className="card-actions justify-start">
-            <div className="badge text-[#23BE0A] font-semibold bg-[#23be0a0d] text-lg p-4">
-              Fashion
-            </div>
-            <div className="badge text-[#23BE0A] font-semibold bg-[#23be0a0d] text-lg p-4">
-              Fashion
-            </div>
+            {tags.map((tag, index) => (
+              <div
+                key={index}
+                className="badge text-[#23BE0A] font-semibold bg-[#23be0a0d] text-lg p-4"
+              >
+                {tag}
+              </div>
+            ))}
           </div>
 
-          <h2 className="card-title text-2xl font-bold playfair">Shoes!</h2>
-          <p>By : lajdf alsjdf alsdf j</p>
+          <h2 className="card-title text-2xl font-bold playfair">{bookName}</h2>
+          <p>By : {author}</p>
           <hr className="border border-dashed" />
           <div className="flex justify-between items-center">
-            <p>Fiction</p>
+            <p>{category}</p>
             <div className="flex items-center gap-1">
-              <p>5:00</p>
+              <p>{rating}</p>
               <CiStar />
             </div>
           </div>
