@@ -1,10 +1,11 @@
 [
   {
     "bookId": 1,
-    "bookName": "HP & The Philosopher's Stone",
+    "bookName": "The Philosopher's Stone",
     "author": "J.K. Rowling",
     "image": "https://i.ibb.co/n1zbPkP/Harry-Potter-and-the-Philosopher-s-Stone.jpg",
-    "review": "The beginning of an enchanting journey into the magical world of Hogwarts, captivating readers of all ages.",
+    "review": "Harry Potter and the Philosopher's Stone is a captivating start to the iconic series. J.K. Rowling introduces readers to the enchanting world of Hogwarts School of Witchcraft and Wizardry, where magic and adventure await. With its richly imagined characters, thrilling plot twists, and themes of friendship and bravery, this book has captured the hearts of readers worldwide. It's a timeless tale of a young boy discovering his true identity and facing the challenges that come with it.",
+
     "totalPages": 320,
     "rating": 4.7,
     "category": "Fantasy",
@@ -17,7 +18,8 @@
     "bookName": "The Da Vinci Code",
     "author": "Dan Brown",
     "image": "https://i.ibb.co/gS6dSkj/The-Da-Vinci-Code.jpg",
-    "review": "A gripping thriller that weaves together art, history, and mystery, keeping readers on the edge of their seats.",
+
+    "review": "The Da Vinci Code is a gripping thriller that weaves together art, religion, and history into an exhilarating puzzle. Dan Brown's masterful storytelling keeps readers on the edge of their seats as they follow symbologist Robert Langdon on a race against time to unravel ancient secrets. With its intriguing plot twists and thought-provoking themes, this book has sparked widespread debate and captivated audiences around the globe. It's a thrilling adventure that challenges readers to question their beliefs and explore the mysteries of the past.",
     "totalPages": 592,
     "rating": 4.3,
     "category": "Mystery",
@@ -30,7 +32,9 @@
     "bookName": "The Alchemist",
     "author": "Paulo Coelho",
     "image": "https://i.ibb.co/TPZXRcX/The-Alchemist.jpg",
-    "review": "A timeless tale of self-discovery and following one's dreams, inspiring readers around the world.",
+
+    "review": "The Alchemist is a timeless tale of self-discovery and personal legend. Paulo Coelho's philosophical narrative follows Santiago, a young shepherd, on his journey to fulfill his dreams and find his true purpose in life. Through encounters with wise mentors and unforeseen challenges, Santiago learns valuable lessons about courage, perseverance, and the power of following one's heart. This inspirational story has resonated with readers of all ages and backgrounds, reminding them that the pursuit of dreams is a journey worth taking.",
+
     "totalPages": 208,
     "rating": 4.2,
     "category": "Fiction",
@@ -43,7 +47,9 @@
     "bookName": "The Hunger Games",
     "author": "Suzanne Collins",
     "image": "https://i.ibb.co/VVzLpVL/The-Hunger-Games.png",
-    "review": "A thrilling dystopian adventure that explores themes of survival, sacrifice, and rebellion.",
+
+    "review": "The Hunger Games is a dystopian masterpiece that explores themes of power, sacrifice, and survival. Suzanne Collins' gripping narrative follows Katniss Everdeen as she volunteers to compete in the brutal Hunger Games, a televised fight to the death. Set in a post-apocalyptic world where the government controls its citizens through fear and oppression, this book challenges readers to question authority and stand up for what they believe in. With its action-packed plot and strong female protagonist, The Hunger Games has captivated audiences worldwide and sparked important discussions about social justice and resilience.",
+
     "totalPages": 374,
     "rating": 4.5,
     "category": "Young Adult",
@@ -56,7 +62,9 @@
     "bookName": "The Girl with the Dragon Tattoo",
     "author": "Stieg Larsson",
     "image": "https://i.ibb.co/XYzQLxh/The-Girl-with-the-Dragon-Tattoo.png",
-    "review": "A gripping mystery featuring complex characters and a riveting plot, leaving readers eager for more.",
+
+    "review": "The Girl with the Dragon Tattoo is a mesmerizing thriller that keeps readers guessing until the very end. Stieg Larsson's complex characters and intricate plotlines create a compelling narrative filled with suspense and intrigue. As journalist Mikael Blomkvist and hacker Lisbeth Salander delve into the dark secrets of Swedish society, they uncover shocking truths that lead them down a dangerous path. With its gripping storyline and fearless protagonists, this book has become a global phenomenon, captivating audiences with its blend of mystery, suspense, and social commentary.",
+
     "totalPages": 672,
     "rating": 4.1,
     "category": "Mystery",
@@ -69,7 +77,9 @@
     "bookName": "The Fault in Our Stars",
     "author": "John Green",
     "image": "https://i.ibb.co/DGPt6vS/The-Fault-in-Our-Stars.jpg",
-    "review": "A poignant and heartfelt story of love and loss, touching the hearts of readers worldwide.",
+
+    "review": "The Fault in Our Stars is a heart-wrenching tale of love, loss, and resilience. John Green's poignant narrative follows Hazel Grace Lancaster and Augustus Waters, two teenagers who meet and fall in love at a cancer support group. As they navigate the complexities of their illness and their feelings for each other, Hazel and Augustus discover the beauty and fragility of life. With its honest portrayal of human emotions and universal themes of mortality and love, this book has touched the hearts of readers worldwide, leaving a lasting impact that transcends age and genre.",
+
     "totalPages": 313,
     "rating": 4.6,
     "category": "Young Adult",
