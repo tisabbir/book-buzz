@@ -6,6 +6,10 @@ const Tab = () => {
       <div className="flex items-center -mx-4 overflow-x-auto overflow-y-hidden sm:justify-center flex-nowrap text-black">
         <NavLink
           to={"read"}
+          //   onClick={() => {
+          //     const readBooks = getStoredReadBook();
+          //     console.log(readBooks);
+          //   }}
           rel="noopener noreferrer"
           href="#"
           className={({ isActive }) =>

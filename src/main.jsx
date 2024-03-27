@@ -7,6 +7,7 @@ import Home from "./Pages/Home";
 import ListedBooks from "./Pages/ListedBooks";
 import MainLayout from "./Pages/MainLayout";
 import Pages from "./Pages/Pages";
+import ReadList from "./Pages/ReadList";
 
 const router = createBrowserRouter([
   {
@@ -21,7 +22,10 @@ const router = createBrowserRouter([
         path: "/listed",
         element: <ListedBooks></ListedBooks>,
         children: [
-          { path: "read", element: <h1>Read boooks</h1> },
+          {
+            path: "read",
+            element: <ReadList />,
+          },
           { path: "wishlist", element: <h1>Wishlist boooks</h1> },
         ],
       },
