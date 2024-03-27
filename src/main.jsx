@@ -8,6 +8,7 @@ import ListedBooks from "./Pages/ListedBooks";
 import MainLayout from "./Pages/MainLayout";
 import Pages from "./Pages/Pages";
 import ReadList from "./Pages/ReadList";
+import WishList from "./Pages/WishList";
 
 const router = createBrowserRouter([
   {
@@ -26,7 +27,7 @@ const router = createBrowserRouter([
             path: "read",
             element: <ReadList />,
           },
-          { path: "wishlist", element: <h1>Wishlist boooks</h1> },
+          { path: "wishlist", element: <WishList /> },
         ],
       },
       {

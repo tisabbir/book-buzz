@@ -1,7 +1,7 @@
 import { useLoaderData, useParams } from "react-router-dom";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { saveReadBook } from "../Utility/localStorage";
+import { saveReadBook, saveWishBook } from "../Utility/localStorage";
 const BookDetails = () => {
   const books = useLoaderData();
   const { bookId } = useParams();
@@ -129,6 +129,7 @@ const BookDetails = () => {
                 theme: "light",
               });
             } else {
+              saveWishBook(book);
               toast.success(`Successfully added to Wishlist`, {
                 position: "top-right",
                 autoClose: 3000,
