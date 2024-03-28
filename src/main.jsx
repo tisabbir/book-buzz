@@ -10,6 +10,7 @@ import ListedBooks from "./Pages/ListedBooks";
 import MainLayout from "./Pages/MainLayout";
 import Pages from "./Pages/Pages";
 import ReadList from "./Pages/ReadList";
+import Recommendation from "./Pages/Recommendation";
 import WishList from "./Pages/WishList";
 const router = createBrowserRouter([
   {
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
       {
         path: "/authors",
         element: <Authors></Authors>,
+      },
+      {
+        path: "/recommendation",
+        element: <Recommendation></Recommendation>,
       },
       {
         path: "/book/:bookId",
