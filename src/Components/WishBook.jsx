@@ -21,7 +21,7 @@ const WishBook = ({ wishBook }) => {
 
   return (
     <div>
-      <div className="p-4 border border-[#13131326]  rounded-xl">
+      <div className="p-2 lg:p-4 border border-[#13131326]  rounded-xl">
         <div className="flex gap-4 flex-col lg:flex-row  items-center lg:items-start justify-start">
           <img src={image} className=" h-[220px] rounded-lg" />
           <div className=" space-y-3 ">
