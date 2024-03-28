@@ -33,6 +33,12 @@ const TriangleBar = (props) => {
 const Pages = () => {
   return (
     <div>
+      <header className="bg-[#1313130d] py-8 rounded-xl mb-12">
+        <h1 className="text-2xl font-bold text-center ">
+          Visualize Your Reading Journey
+        </h1>
+      </header>
+
       <ResponsiveContainer width="95%" height={400}>
         <BarChart
           data={readBooks}

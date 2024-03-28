@@ -1,0 +1,38 @@
+[
+  {
+    "image": "https://i.ibb.co/cNc0625/author1.jpg",
+    "name": "Adam Rahman",
+    "category": "Fiction",
+    "description": "Adam Rahman is a talented fiction writer known for his compelling characters and intricate plots. His novels delve into the complexities of human relationships and the mysteries of life."
+  },
+  {
+    "image": "https://i.ibb.co/W3MQVCY/author2.jpg",
+    "name": "Youssef Ali",
+    "category": "Mystery",
+    "description": "Youssef Ali is a master of mystery, crafting suspenseful tales that keep readers guessing until the very end. His captivating storytelling and clever plot twists make his novels impossible to put down."
+  },
+  {
+    "image": "https://i.ibb.co/c2ZZVhj/author3.jpg",
+    "name": "Kareem Ahmed",
+    "category": "Historical Fiction",
+    "description": "Kareem Ahmed transports readers to different eras with his vividly detailed historical fiction novels. Through his immersive storytelling, readers are transported to captivating worlds of the past."
+  },
+  {
+    "image": "https://i.ibb.co/Bwp6k5T/author4.jpg",
+    "name": "Muhammad Khan",
+    "category": "Science Fiction",
+    "description": "Muhammad Khan explores the wonders of the universe through his imaginative science fiction novels. With visionary ideas and thought-provoking themes, his works inspire readers to ponder the future."
+  },
+  {
+    "image": "https://i.ibb.co/cD6xYYS/author5.jpg",
+    "name": "Omar Hassan",
+    "category": "Thriller",
+    "description": "Omar Hassan keeps readers on the edge of their seats with his pulse-pounding thrillers. His fast-paced plots and unexpected twists leave readers breathless, eagerly turning pages late into the night."
+  },
+  {
+    "image": "https://i.ibb.co/PwdKyX3/author6.jpg",
+    "name": "Ahmed Mahmoud",
+    "category": "Poetry",
+    "description": "Ahmed Mahmoud's poetry captures the beauty of the world and the depth of human emotions. With lyrical verses and evocative imagery, his poetry touches the hearts of readers and inspires reflection."
+  }
+]

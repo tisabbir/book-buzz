@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
+import Authors from "./Pages/Authors";
 import BookDetails from "./Pages/BookDetails";
 import ErrorPage from "./Pages/ErrorPage";
 import Home from "./Pages/Home";
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
       {
         path: "/pages",
         element: <Pages></Pages>,
+      },
+      {
+        path: "/authors",
+        element: <Authors></Authors>,
       },
       {
         path: "/book/:bookId",
