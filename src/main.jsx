@@ -24,10 +24,14 @@ const router = createBrowserRouter([
       },
       {
         path: "/listed",
-        element: <ListedBooks></ListedBooks>,
+        element: (
+          <div>
+            <ListedBooks></ListedBooks>
+          </div>
+        ),
         children: [
           {
-            path: "read",
+            path: "/listed",
             element: <ReadList />,
           },
           { path: "wishlist", element: <WishList /> },

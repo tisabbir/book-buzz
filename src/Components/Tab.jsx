@@ -5,7 +5,7 @@ const Tab = () => {
     <div className="mt-12">
       <div className="flex items-center -mx-4 overflow-x-auto overflow-y-hidden sm:justify-center flex-nowrap text-black">
         <NavLink
-          to={"read"}
+          to={"/listed"}
           //   onClick={() => {
           //     const readBooks = getStoredReadBook();
           //     console.log(readBooks);
