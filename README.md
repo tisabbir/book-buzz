@@ -18,7 +18,8 @@ Repo Link: https://github.com/programming-hero-web-course-4/b9a8-book-vibe-tisab
 **Personalized Recommendations:** Offer users personalized book recommendations tailored to their interests and reading history.
 
 <hr />
-## **Characteristics**
+
+# **Characteristics**
 
 - **User-Friendly Interface:** MyBookWebsite features an intuitive and easy-to-navigate interface, ensuring a seamless browsing experience for users of all levels.
 
