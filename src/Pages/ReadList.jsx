@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import Dropdown from "../Components/Dropdown";
+import Header from "../Components/Header";
 import ReadBook from "../Components/ReadBook";
+import Tab from "../Components/Tab";
 import { getStoredReadBook } from "../Utility/localStorage";
 
 const ReadList = () => {
@@ -29,7 +31,9 @@ const ReadList = () => {
 
   return (
     <div>
+      <Header></Header>
       <Dropdown sortBooksBy={sortBooksBy} />
+      <Tab></Tab>
       <div className=" space-y-6 mt-12">
         {readList.map((readBook, index) => (
           <ReadBook key={index} readBook={readBook}></ReadBook>

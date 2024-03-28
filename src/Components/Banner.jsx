@@ -15,7 +15,7 @@ const Banner = () => {
             </h1>
 
             <Link
-              to={"/listed"}
+              to={"/read"}
               className="btn text-xl text-bold text-white bg-[#23BE0A]"
             >
               View The List

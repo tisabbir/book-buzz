@@ -29,12 +29,11 @@ const router = createBrowserRouter([
             <ListedBooks></ListedBooks>
           </div>
         ),
-        children: [
-          {
-            path: "/listed",
-            element: <ReadList />,
-          },
-        ],
+      },
+
+      {
+        path: "/read",
+        element: <ReadList />,
       },
       {
         path: "/wishlist",

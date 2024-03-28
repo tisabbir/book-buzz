@@ -25,7 +25,7 @@ const Nav = () => {
               Home
             </NavLink>
             <NavLink
-              to={"/listed"}
+              to={"/read"}
               className={({ isActive }) =>
                 isActive
                   ? "btn btn-ghost border border-[#23BE0A] text-[#23BE0A] font-semibold text-md lg:text-xl"
