@@ -1,4 +1,4 @@
-const Dropdown = () => {
+const Dropdown = ({ sortBooksBy }) => {
   return (
     <div>
       <div className="flex justify-center mt-12">
@@ -9,13 +9,28 @@ const Dropdown = () => {
             </summary>
             <ul className="p-2 bg-base-100 rounded-t-none">
               <li>
-                <button className="btn w-full">Rating</button>
+                <button
+                  onClick={() => sortBooksBy("rating")}
+                  className="btn w-full"
+                >
+                  Rating
+                </button>
               </li>
               <li>
-                <button className="btn w-full">Number of Pages</button>
+                <button
+                  onClick={() => sortBooksBy("pages")}
+                  className="btn w-full"
+                >
+                  Number of Pages
+                </button>
               </li>
               <li>
-                <button className="btn w-full">Published Year</button>
+                <button
+                  onClick={() => sortBooksBy("year")}
+                  className="btn w-full"
+                >
+                  Published Year
+                </button>
               </li>
             </ul>
           </details>
