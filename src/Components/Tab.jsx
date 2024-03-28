@@ -33,7 +33,7 @@ const Tab = () => {
           <span>Read Books</span>
         </NavLink>
         <NavLink
-          to={"wishlist"}
+          to={"/wishlist"}
           rel="noopener noreferrer"
           href="#"
           className={({ isActive }) =>
